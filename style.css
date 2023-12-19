@@ -59,3 +59,15 @@ a {
 .btn img:hover {
     width: 70px;
 }
+
+.main_form {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    flex-direction: row;
+    color:bisque;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.336);
+}
