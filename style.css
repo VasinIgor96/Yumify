@@ -86,9 +86,6 @@ a {
     color:bisque;
     width: 800px;
     background-color: rgba(0, 0, 0, 0.336);
-}
-
-.form {
     font-family: 'Sacramento', serif;
     margin: 120px 0;
     border-radius: 10px;
@@ -151,4 +148,64 @@ button a {
 }
 .button_del a:active {
     color: black;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts li, .info {
+    font-size: 24px;
+    list-style: none;
+    
+    margin: 10px 60px 10px 0;
+    text-align: start;
+}
+.info {
+    padding-left: 80px;
+}
+
+.info_2 {
+    display: flex;
+    
+}
+
+.form_center {
+    display: flex;
+    justify-content: center;
+}
+
+.img_info {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_info_block {
+    display: flex;
+    justify-content: center;
+}
+
+.img_info_1 {
+    margin-left: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_info_2 {
+    margin-left: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_info img {
+    margin: 20px 0;
+    width: 52px;
+}
+
+.img_info img:hover {
+    width: 64px;
 }
