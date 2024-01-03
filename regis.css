@@ -16,12 +16,13 @@ body {
 .main {
     display: flex;
     justify-content: center;
-    margin: 200px 250px;
+    margin: 150px 250px;
 }
 
 .forms {
     background-color: rgba(146, 146, 146, 0.466);
     width: 500px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +30,8 @@ body {
     box-shadow: 7px 14px 15px -3px rgba(0, 0, 0, 0.8);
 }
 
-h2 {
+h1 {
+    color:bisque;
     font-family: 'Sacramento', cursive;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -37,39 +39,49 @@ h2 {
 }
 
 input {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 10px 0;
 }
 
-input[type="submit"] {
+.button {
     background-color: #5e5e5ebe;
     border: none;
     font-family: 'Sacramento', cursive;
+    width: 400px;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 22px;
     color: white;
     font-weight: bold;
     box-shadow: 0 2px 6px #000000;
     cursor: pointer;
 }
+button a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .checkbox {
-    display: flex;
-    flex-grow: 1;
-    
+    padding-top: 10px;
+    display: flex;   
 }
 
 .checkbox p {
    font-family: 'Sacramento', cursive;
    width: 300px;
-   font-size: 12px;
+   font-size: 14px;
    margin-left: 10px;
 }
 
 .box {
-    width: 16px;
-    margin-top: 2px;
+    width: 20px;
+    margin-top: 3px;
 }
 
 .fp {
@@ -82,12 +94,17 @@ input[type="submit"] {
 }
 
 .button:hover {
-    background-color: #b38b0767;
+    background-color: rgba(255, 228, 196, 0.5);
+}
+.button a:hover {
+    color: #444444;
 }
 
 .button:active {
-    color: rgb(0, 0, 0);
-    background-color: rgba(34, 92, 16, 0.774);
+    background-color: rgba(34, 92, 16, 0.459);
+}
+.button a:active {
+    color: black;
 }
 
 .button_fp {
@@ -96,5 +113,6 @@ input[type="submit"] {
 }
 
 .fp:hover {
-    color: #b08907;
+    color: bisque;
 }
+

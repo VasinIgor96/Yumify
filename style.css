@@ -2,12 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 * {
     font-family: 'EB Garamond', serif;
+    font-weight: 600;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
     background-image: url(img/fon2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.fon_1 {
+    background-image: url(img/fon_1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -30,13 +37,22 @@ body {
     cursor: pointer;
 }
 
+.img_user {
+    width: 60px;
+    margin-top: 30px;
+}
+
+.img_user_block {
+    width: 120px;
+}
+
 a {
     color: #b38b07;
     text-decoration: none;
 }
 
 .menu ul {
-    margin: 45px 50px 0 800px;
+    margin: 45px 0 0 750px;
     width: 600px;
     font-size: 24px;
     font-style: italic;
@@ -70,4 +86,69 @@ a {
     color:bisque;
     width: 800px;
     background-color: rgba(0, 0, 0, 0.336);
+}
+
+.form {
+    font-family: 'Sacramento', serif;
+    margin: 120px 0;
+    border-radius: 10px;
+    background-color: rgba(146, 146, 146, 0.466);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.hr {
+    margin: 10px 0;
+}
+
+.main_form input {
+    font-size: 18px;
+    margin: 20px 0;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.form_input {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: 'Sacramento', cursive;
+}
+
+.button_del {
+    background-color: #5e5e5ebe;
+    border: none;
+    font-family: 'Sacramento', cursive;
+    width: 600px;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 6px #000000;
+    cursor: pointer;
+}
+
+button a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button_del:hover {
+    background-color: rgba(255, 228, 196, 0.5);
+}
+.button_del a:hover {
+    color: #444444;
+}
+
+.button_del:active {
+    background-color: rgba(34, 92, 16, 0.459);
+}
+.button_del a:active {
+    color: black;
 }
