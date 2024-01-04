@@ -22,8 +22,7 @@ body {
 
 .header {
 
-    display: flex;
-    
+    display: flex;  
 }
 
 .logo img {
@@ -72,8 +71,10 @@ a {
 .menu a:hover {
     color: rgba(255, 238, 7, 0.932);
 }
+
 .btn img:hover {
-    width: 70px;
+    transform: scale(1.4);
+    transition: transform 0.5s ease-in-out;
 }
 
 .main_form {
@@ -82,6 +83,7 @@ a {
 }
 
 .form {
+    display: static;
     flex-direction: row;
     color:bisque;
     width: 800px;
@@ -153,27 +155,31 @@ button a {
 .contacts {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .contacts li, .info {
     font-size: 24px;
     list-style: none;
-    
-    margin: 10px 60px 10px 0;
+    margin: 10px 80px 10px 0;
     text-align: start;
 }
 .info {
-    padding-left: 80px;
+    padding-left: 120px;
 }
 
 .info_2 {
-    display: flex;
-    
+    display: flex;   
+}
+
+.info_2 li {
+    margin-left: 40px;
 }
 
 .form_center {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img_info {
@@ -206,6 +212,46 @@ button a {
     width: 52px;
 }
 
-.img_info img:hover {
-    width: 64px;
+.img_info_1 a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
 }
+
+.img_info_1 a:hover {
+    transform: scale(1.4);
+    transform-origin: center center;
+}
+
+.img_info_2 a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_info_2 a:hover {
+    transform: scale(1.4);
+    transform-origin: center center;
+}
+
+.logo a:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    width: 100%; 
+    height: 800px; 
+    border: none; 
+}
+
+
+
+
+
+
