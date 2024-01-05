@@ -250,8 +250,23 @@ button a {
     border: none; 
 }
 
+.menu ul li a {
+    color: #b38b07;
+    text-decoration: none;
+}
 
+.menu ul li a:hover {
+    color: rgba(255, 238, 7, 0.932);
+    text-decoration: none;
+}
 
+.carousel {
+    width: 1100px;
+}
 
+.carousel_block {
+    display: flex;
+    justify-content: center;
+}
 
 
