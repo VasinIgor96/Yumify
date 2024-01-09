@@ -19,6 +19,12 @@ body {
     background-size: cover;
     height: 100vh;
 }
+.fon_12343 {
+    background-image: url(img/12343.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
 
 .header {
 
@@ -256,17 +262,103 @@ button a {
 }
 
 .menu ul li a:hover {
-    color: rgba(255, 238, 7, 0.932);
+    color: bisque;
     text-decoration: none;
+}
+.text_h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #b38b07;
+    font-family: 'EB Garamond', serif;
+}
+
+.text_h3 {
+    text-align: center;
+    color: bisque;
 }
 
 .carousel {
-    width: 1100px;
+    width: 1800px;
+}
+
+.carousel img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
 }
 
 .carousel_block {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
 
+.text_p {
+    color: bisque;
+}
+.text_p a:hover {
+    color: aqua;
+}
 
+.text_p a {
+    text-decoration: none;
+    color: #b38b07;
+}
+
+.hr_bottom {
+    color: bisque;
+}
+.flo_clock {
+    display: flex;
+    justify-content: center;
+}
+
+.block_info_bottom {
+    background-color: rgba(146, 146, 146, 0.466);
+    border-radius: 10px;
+    box-shadow: 7px 14px 15px -3px rgba(0, 0, 0, 0.8);
+    width: 400px;
+}
+
+.block_info_bottom h4 {
+    font-size: 28px;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.clock {
+    text-align: center;
+    padding: 0 0 10px 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.flo_clock img {
+    margin-top: 5px;
+    width: 52px;
+    height: 52px;
+}
+
+.flo_bottom {
+    width: 1400px;
+    margin: 50px 0 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.developer {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+a img {
+    width: 42px;
+    padding-right: 10px;
+}
