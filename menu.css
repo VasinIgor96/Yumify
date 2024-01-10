@@ -70,8 +70,7 @@ body {
 
 .menu_food li {
     width: 180px;
-    display: flex;
-    
+    display: flex; 
     margin-right: 15px;
 }
 

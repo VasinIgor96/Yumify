@@ -27,7 +27,6 @@ body {
 }
 
 .header {
-
     display: flex;  
 }
 
@@ -137,6 +136,11 @@ h1, h2 {
     font-weight: bold;
     box-shadow: 0 2px 6px #000000;
     cursor: pointer;
+}
+
+.button_del a{
+    color: #b38b07;
+    text-decoration: none;
 }
 
 button a {
@@ -339,6 +343,9 @@ button a {
     padding: 0 0 10px 0;
     margin-top: 5px;
     margin-left: 10px;
+}
+.text_p{
+    font-size: 10px;
 }
 
 .flo_clock img {
