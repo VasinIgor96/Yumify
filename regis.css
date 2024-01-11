@@ -41,7 +41,7 @@ h1 {
 input {
     font-size: 18px;
     margin-bottom: 10px;
-    width: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -52,7 +52,7 @@ input {
     background-color: #5e5e5ebe;
     border: none;
     font-family: 'Sacramento', cursive;
-    width: 400px;
+    width: 100%;
     margin: 10px 0;
     padding: 5px 0;
     font-size: 22px;
@@ -61,6 +61,7 @@ input {
     box-shadow: 0 2px 6px #000000;
     cursor: pointer;
 }
+
 button a {
     display: flex;
     justify-content: center;
@@ -88,7 +89,7 @@ button a {
     font-family: 'Sacramento', cursive;
     text-align: center;
     margin: 33px;
-    color: #031563;
+    color: #b38b07;
     font-weight: bold;
     text-decoration: none;
 }
@@ -96,6 +97,7 @@ button a {
 .button:hover {
     background-color: rgba(255, 228, 196, 0.5);
 }
+
 .button a:hover {
     color: #444444;
 }
@@ -103,6 +105,7 @@ button a {
 .button:active {
     background-color: rgba(34, 92, 16, 0.459);
 }
+
 .button a:active {
     color: black;
 }

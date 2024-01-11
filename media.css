@@ -56,6 +56,14 @@
         display: flex;
     }
 
+    .flo_clock .mail_img {
+        margin-left: 10px;
+    }
+
+    .mail_p {
+        margin-left: -10px;
+    }
+
 }
 
 @media screen  and (max-width: 768px) {
@@ -122,6 +130,10 @@
         width: 40px;
         height: 40px;
     }
+
+    .clock {
+        font-size: 12px;
+    }
     
     .block_info_bottom h4 {
         font-size: 21px;
@@ -131,7 +143,7 @@
         display: static;
         flex-direction: row;
         color:bisque;
-        width: 600px;
+        width: 800px;
         background-color: rgba(0, 0, 0, 0.336);
         font-family: 'Sacramento', serif;
         margin: 120px 0;
@@ -207,7 +219,7 @@
     .main {
         display: flex;
         justify-content: center;
-        margin: 150px 250px;
+        margin: 150px 170px;
     }
     
     .forms {
@@ -225,20 +237,26 @@
         font-size: 28px;
     }
 
-    .input_box {
-        margin-left: 25px;
-        text-align: center;
-    }
-
-
     input {
         font-size: 14px;
         margin-bottom: 10px;
-        width: 300px;
+        width: 90%;
         display: flex;
         justify-content: center;
         text-align: center;
         padding: 10px 0;
+    }
+
+    .input_box {
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .box_center_box {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 
     .checkbox {
@@ -259,21 +277,13 @@
         background-color: #5e5e5ebe;
         border: none;
         font-family: 'Sacramento', cursive;
-        width: 300px;
-        margin: 10px 0 0 25px;
+        width: 320px;
         padding: 5px 0;
         font-size: 22px;
         color: white;
         font-weight: bold;
         box-shadow: 0 2px 6px #000000;
         cursor: pointer;
-    }
-    
-    
-    .main {
-        display: flex;
-        justify-content: center;
-        margin: 150px 250px;
     }
 
     .fp {

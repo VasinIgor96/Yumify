@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,800;1,500;1,600;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 * {
     font-family: 'EB Garamond', serif;
     font-weight: 600;
@@ -344,9 +343,7 @@ button a {
     margin-top: 5px;
     margin-left: 10px;
 }
-.text_p{
-    font-size: 10px;
-}
+
 
 .flo_clock img {
     margin-top: 5px;
@@ -378,7 +375,7 @@ a img {
     padding-right: 10px;
 }
 
-.left_text a {
+.left_text, .left_text a {
     text-decoration: none;
     color: #b38b07;
 }
