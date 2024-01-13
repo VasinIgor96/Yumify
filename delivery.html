@@ -15,35 +15,44 @@
     <title>Yumify</title>
 </head>
 <body class="fon_1">
-        <div class="header">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo/logo.png" alt=""/>
-                </a>
-                
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="menu_course.html">Меню</a></li>
-                    <li><a href="delivery.html">Доставка</a></li>
-                    <li><a href="contacts.html">Контакти</a></li>
-                    <li><a class="login" href="login.html">Увійти</a></li>
-                </ul>
-            </div>
-            <div class="img_user_block">
-                <img class="img_user" src="img/icons/user_no.png" alt="">
-            </div>
-            <button class="btn">
-                <a href="basket.html">
-                    <img src="img/icons/тележка.png" alt="">
-                </a>
-            </button>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo/logo.png" alt=""/>
+            </a> 
         </div>
+        <div class="dropdown">
+          <button class="btn btn_color btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Головне меню 
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="menu_course.html">Меню</a></li>
+            <li><a class="dropdown-item" href="delivery.html">Доставка</a></li>
+            <li><a class="dropdown-item" href="contacts.html">Контакти</a></li>
+            <li><a class="dropdown-item" href="login.html">Увійти</a></li>
+          </ul>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="menu_course.html">Меню</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a class="login" href="login.html">Увійти</a></li>
+            </ul>
+        </div>
+        <div class="img_user_block">
+            <img class="img_user" src="img/icons/user_no.png" alt="">
+        </div>
+        <button class="btn">
+            <a href="basket.html">
+                <img src="img/icons/тележка.png" alt="">
+            </a>
+        </button>
+    </div>
         <div class="main_form">
             <div class="form">
                 <h1>Бажаєте зробити замовлення?</h1>
                 <h2>Заповніть форму та очікуйте на дзвінок</h2>
-                <hr class="hr">
+                <hr class="hr_bottom hr_contact">
                 <div class="form_input">
                 <form>
                     <input type="tel" placeholder="Введіть ваш номер телефону">
@@ -59,9 +68,9 @@
         <div class="bottom_block">
             <div class="developer">
                 <div class="flo_bottom animate__animated wow animate__fadeInUp"> 
-                  <p class="left_text"><a href="privacy_policy.html">Політика конфіденційності</a></p>
-                  <p class="left_text"><a href=""><img src="img/logo/logo.png" alt=""></a>&#169; 2024. Yumify, Усі права захищено</p>
-                  <p class="left_text">Сайт розробив:<span><a href="https://www.instagram.com/igor_vasin96/" title="Instagram розробника">  Vasin Igor</a></span></p>
+                  <p class="left_text d_none"><a href="privacy_policy.html">Політика конфіденційності</a></p>
+                  <p class="left_text d_activ"><a href=""><img src="img/logo/logo.png" alt=""></a>&#169; 2024. Yumify, Усі права захищено</p>
+                  <p class="left_text d_none">Сайт розробив:<span><a href="https://www.instagram.com/igor_vasin96/" title="Instagram розробника">  Vasin Igor</a></span></p>
                 </div>
               </div> 
             </div>

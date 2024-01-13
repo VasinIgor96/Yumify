@@ -29,6 +29,11 @@
     display: flex;
 }
 
+.button_zr {
+    width: 100%;
+    margin-left: 0;
+}
+
 }
 
 @media screen  and (max-width: 992px) {
@@ -91,9 +96,11 @@
         width: 80px;
         margin: 10px 0 0 10px;
     }
+
+
     .menu ul {
         font-size: 21px;
-        margin: 30px 0 0 50px;
+        margin: 30px 0 0 40px;
         width: 500px;
      }
     
@@ -160,24 +167,34 @@
     }
 
     .form {
-        display: static;
-        flex-direction: row;
         color:bisque;
-        width: 800px;
-        background-color: rgba(0, 0, 0, 0.336);
-        font-family: 'Sacramento', serif;
-        margin: 120px 0;
-        border-radius: 10px;
-        background-color: rgba(146, 146, 146, 0.466);
-        text-align: center;
+        width: 650px;
         padding: 30px 0;
     }
 
+    .box_center_box {
+        width: 400px;
+    }
+
+    .contacts li{
+        font-size: 17px;
+    }
+
     .form h1 {
+        color: #b38b07;
         font-size: 28px;
     }
 
-    .contacts li {
+    .form h2 {
+        color: bisque;
+        font-size: 21px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .info {
         font-size: 20px;
     }
 
@@ -208,17 +225,10 @@
     }
 
     .button_del {
-        background-color: #5e5e5ebe;
-        border: none;
-        font-family: 'Sacramento', cursive;
         width: 400px;
         margin: 10px 0;
         padding: 5px 0;
         font-size: 22px;
-        color: white;
-        font-weight: bold;
-        box-shadow: 0 2px 6px #000000;
-        cursor: pointer;
     }
 
     .img_info_1 {
@@ -243,18 +253,14 @@
     }
     
     .forms {
-        background-color: rgba(146, 146, 146, 0.466);
+        background-color: #4f4f4fc5;
         width: 500px;
         font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        box-shadow: 7px 14px 15px -3px rgba(0, 0, 0, 0.8);
+
     }
- cv
+ 
     .forms h1 {
-        font-size: 28px;
+        font-size: 28x;
     }
 
     input {
@@ -268,43 +274,31 @@
     }
 
     .input_box {
-        margin-left: 40px;
+        margin-left: 20px;
         width: 100%;
-    }
-
-    .box_center_box {
-        width: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
     }
 
     .checkbox {
         margin-left: 20px;
-        padding-top: 10px;
         display: flex;   
     }
 
     .checkbox p {
-        font-family: 'Sacramento', cursive;
-        width: 300px;
-        font-size: 12px;
-        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+
+     .box_mail {
+        margin-left: 40px;
      }
      
-
     .button {
-        background-color: #5e5e5ebe;
-        border: none;
-        font-family: 'Sacramento', cursive;
-        width: 325px;
-        margin-left: 5px;
-        padding: 5px 0;
-        font-size: 22px;
-        color: white;
-        font-weight: bold;
-        box-shadow: 0 2px 6px #000000;
-        cursor: pointer;
+        width: 360px;
+        margin-left: 20px;
+    }
+
+    .button_button {
+        margin-left: 20px;
     }
 
     .fp {
@@ -318,15 +312,30 @@
     
     .dropdown {
         display: block;
-        margin: 20px 10px 0 300px;
+        margin: 20px 10px 0 180px;
     }
 
-    .btn_color {
+    .dropdown button {
         background-color: #b38b07;
+        color: #5e5e5ef5;
+        font-weight: 700;
+    }
+
+    .dropdown button:hover {
+        background-color: #5e5e5ef5;
+        color: #b38b07;
     }
 
     .dropdown ul {
         background-color: #5e5e5ed5;  
+    }
+
+    .dropdown-menu {
+        width: 5px;
+    }
+
+    .img_user_block {
+        margin: 0 0 0 20px;
     }
 
     .btn a {
@@ -346,5 +355,68 @@
     .menu {
         display: none;
     }
-    
+
+.developer .d_none {
+    display: none;
+}
+
+.information {
+    display: block;
+    margin-left: 113px;
+}
+
+.block_info_bottom {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.flo_img img {
+    margin-right: 20px;
+}
+
+.d_activ {
+    margin-left: 170px;
+}
+
+.menu_food_block ul {
+    width: 480px;
+}
+
+.menu_food a {
+    font-size: 24px;
+}
+
+.form {
+    width: 520px;
+}
+
+.contacts li{
+    font-size: 14px;
+}
+
+.img_info img {
+    margin: 20px 0;
+    width: 40px;
+}
+
+.info a {
+    display: none;
+}
+
+.flo_bottom {
+    width: 576px;
+}
+.main_form input {
+    width: 500px;
+}
+
+.input_box_center {
+    width: 90%;
+}
+
+.button_st {
+    width: 90%;
+    margin-left: 20px;
+}
+
 }

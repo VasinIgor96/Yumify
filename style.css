@@ -80,7 +80,8 @@ a {
     color: rgba(255, 238, 7, 0.932);
 }
 
-h1 {
+h1, .forms h1 {
+    margin-top: 40px;
     color: #b38b07;
 }
 
@@ -95,15 +96,15 @@ h1 {
 }
 
 .form {
+    background-color: #4f4f4fc5;
     display: static;
     flex-direction: row;
     color: #b38b07;
     width: 800px;
-    background-color: rgba(0, 0, 0, 0.336);
     font-family: 'Sacramento', serif;
     margin: 120px 0;
     border-radius: 10px;
-    background-color: rgba(146, 146, 146, 0.466);
+    background-color: #4f4f4fc5;
     text-align: center;
     padding: 30px 0;
 }
@@ -132,6 +133,11 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+ul img {
+    width: 30px;
+}
+
 
 .button_del {
     background-color: #5e5e5ebe;
@@ -183,8 +189,18 @@ button a {
     margin: 10px 80px 10px 0;
     text-align: start;
 }
+
+.contacts img {
+    margin-top: -5px;
+}
+
+.contacts img:hover {
+    transform: scale(1.4);
+    transform-origin: center center;
+}
+
 .info {
-    padding-left: 120px;
+    padding-left: 70px;
 }
 
 .info_2 {
@@ -212,16 +228,8 @@ button a {
     justify-content: center;
 }
 
-.img_info_1 {
-    margin-left: 20px;
-    width: 250px;
-    display: flex;
-    justify-content: space-around;
-}
-
 .img_info_2 {
-    margin-left: 50px;
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: space-around;
 }
@@ -229,16 +237,6 @@ button a {
 .img_info img {
     margin: 20px 0;
     width: 52px;
-}
-
-.img_info_1 a {
-    display: inline-block;
-    transition: transform 0.3s ease-in-out;
-}
-
-.img_info_1 a:hover {
-    transform: scale(1.4);
-    transform-origin: center center;
 }
 
 .img_info_2 a {

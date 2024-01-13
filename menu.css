@@ -87,3 +87,11 @@ body {
     color: bisque;
     text-decoration: none;
 }
+
+.checkbox p {
+    width: 300px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
