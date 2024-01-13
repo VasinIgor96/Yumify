@@ -4,6 +4,11 @@
     width: 500px;
  }
 
+ .img_user_block {
+    width: 70px;
+    margin-left: 30px;
+}
+
  .btn img {
     width: 60px;
     margin: 30px 0 10px 0;
@@ -28,7 +33,7 @@
 
 @media screen  and (max-width: 992px) {
     .menu ul {
-        margin: 45px 0 0 230px;
+        margin: 45px 0 0 200px;
         width: 500px;
      }
     
@@ -37,8 +42,23 @@
         margin: 30px 0 10px 0;
     }
 
+    .img_user_block {
+        width: 70px;
+    }
+
     .menu_food {
         margin-left: 50px;
+    }
+
+    .input_box {
+        width: 400px;
+    }
+    .box_center_box_center {
+        display: flex;
+        justify-content: center;
+    }
+    .box_center_box {
+        width: 400px;
     }
     
     .qwer_2 {
@@ -295,5 +315,36 @@
 
 
 @media screen  and (max-width: 576px) {
+    
+    .dropdown {
+        display: block;
+        margin: 20px 10px 0 300px;
+    }
 
+    .btn_color {
+        background-color: #b38b07;
+    }
+
+    .dropdown ul {
+        background-color: #5e5e5ed5;  
+    }
+
+    .btn a {
+        margin-top: -10px;
+    }
+
+    .dropdown a {
+        color: #b38b07;
+    }
+
+    .dropdown a:hover {
+        background-color: bisque;
+        color: #5e5e5e;
+        font-weight: 900;
+    }
+
+    .menu {
+        display: none;
+    }
+    
 }

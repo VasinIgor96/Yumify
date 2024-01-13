@@ -54,6 +54,10 @@ a {
     text-decoration: none;
 }
 
+.dropdown {
+    display: none;
+}
+
 .menu ul {
     margin: 45px 0 0 750px;
     width: 600px;
@@ -76,6 +80,10 @@ a {
     color: rgba(255, 238, 7, 0.932);
 }
 
+h1 {
+    color: #b38b07;
+}
+
 .btn img:hover {
     transform: scale(1.4);
     transition: transform 0.5s ease-in-out;
@@ -89,7 +97,7 @@ a {
 .form {
     display: static;
     flex-direction: row;
-    color:bisque;
+    color: #b38b07;
     width: 800px;
     background-color: rgba(0, 0, 0, 0.336);
     font-family: 'Sacramento', serif;
@@ -114,13 +122,15 @@ a {
     padding: 10px 0;
 }
 
+.hr_contact {
+    border-top: 3px solid bisque;
+    size: 5px;
+    color: bisque;
+}
+
 .form_input {
     display: flex;
     justify-content: center;
-}
-
-h1, h2 {
-    font-family: 'Sacramento', cursive;
 }
 
 .button_del {
@@ -325,7 +335,7 @@ button a {
 }
 
 .block_info_bottom {
-    background-color: rgba(146, 146, 146, 0.466);
+    background-color: #4f4f4f85;
     border-radius: 10px;
     box-shadow: 7px 14px 15px -3px rgba(0, 0, 0, 0.8);
     width: 400px;
