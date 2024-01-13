@@ -232,7 +232,7 @@
         border-radius: 10px;
         box-shadow: 7px 14px 15px -3px rgba(0, 0, 0, 0.8);
     }
-
+ cv
     .forms h1 {
         font-size: 28px;
     }
@@ -277,7 +277,8 @@
         background-color: #5e5e5ebe;
         border: none;
         font-family: 'Sacramento', cursive;
-        width: 320px;
+        width: 325px;
+        margin-left: 5px;
         padding: 5px 0;
         font-size: 22px;
         color: white;
