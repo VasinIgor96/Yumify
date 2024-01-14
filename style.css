@@ -391,3 +391,14 @@ a img {
 .icon_img {
     width: 36px;
 }
+
+.form_center_policy {
+    margin-top: 300px;
+    margin-bottom: 280px;
+}
+.btn_loading {
+    color: #444444;
+}
+button .btn {
+    width: 200px; 
+}
