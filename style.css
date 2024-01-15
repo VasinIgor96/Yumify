@@ -81,6 +81,7 @@ a {
 }
 
 h1, .forms h1 {
+    font-family: 'EB Garamond', serif;
     margin-top: 40px;
     color: #b38b07;
 }
@@ -305,6 +306,9 @@ button a {
     display: flex;
     justify-content: center;
 }
+.animate__fadeInRight h3 {
+    margin-bottom: 60px;
+}
 
 .text_p {
     color: #b38b07;
@@ -325,6 +329,7 @@ button a {
 
 .hr_bottom {
     color: bisque;
+    margin-bottom: 30px;
 }
 
 .flo_clock {
