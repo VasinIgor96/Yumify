@@ -548,3 +548,31 @@
         margin-left: 20px;
     }
 }
+
+@media screen  and (max-width: 395px) {
+    
+    .dropdown {
+        display: block;
+        margin: 20px 0 0 10px;
+    }
+
+    .img_user_block {
+        margin: 0 0 0 20px;
+    }
+
+    .qwer_2 {
+        margin: 30px;
+    }
+
+    .animate__fadeInRight h3 {
+        margin: 30px;
+    }
+
+    .information {
+        margin-left: 20px;
+    }
+
+    .d_activ {
+        margin-left: 80px;
+    }
+}
